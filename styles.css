@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Manrope", Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.haut {
+    height: 650px;
+    padding: 40px 20px;
+    background-color: #f5f1ed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url("assets/couverture-dada-design-9KGB4HspwsM-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}   
+.logo {
+     width: 130px;
+    margin: auto;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #2E2A26;
+    text-align: center;
+    color: #2E2A26;
+}
+.logo {
+    display: block;
+    width: 130px;
+    margin: auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 25px;
+    margin: 30px auto 0;
+    padding: 15px 0;
+    border-top: 1px solid #2E2A26;
+    border-bottom: 1px solid #2E2A26;
+}
+
+.menu a {
+    color: #2E2A26;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu li {
+    width: 20%;
+}
+.menu a:hover {
+    color: #D8935C;
+}
+.haut h1 {
+    max-width: 650px;
+    margin: 140px auto 0;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #5C4330;
+}
+body {
+    color: #2E2A26;
+    background-color: white;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.btn {
+    display: inline-block;
+    background-color: #2E2A26;
+    color: white;
+    padding: 14px 26px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #D8935C;
+}
+.bloc {
+    display: flex;
+    align-items: center;
+}
+
+.bloc-image {
+    width: 50%;
+}
+
+.bloc-image img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.bloc-texte {
+    width: 50%;
+    padding: 60px 70px;
+}
+.promesses {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.promesses li {
+    font-size: 18px;
+    font-weight: 700;
+    color: #6b625a;
+    padding: 16px 0;
+    border-bottom: 2px solid #e5ded6;
+}
+.realisations {
+    background-color: #F5F1ED;
+    padding: 90px 0;
+}
+
+.realisations-haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.realisations-haut h2 {
+    margin-bottom: 0;
+}
+
+.realisations-haut .btn {
+    margin-top: 0;
+}
+
+.grille-projets {
+    display: flex;
+    gap: 30px;
+}
+
+.projet {
+    width: 25%;
+}
+
+.projet img {
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.projet h3 {
+    margin-bottom: 10px;
+}
+
+.projet p {
+    font-size: 15px;
+    color: #6b625a;
+}
+.realisations {
+    background-color: #F5F1ED;
+    padding: 80px 40px;
+    text-align: center;
+}
+.projet h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+.temoignages {
+    padding: 90px 0;
+}
+
+.temoignages-contenu {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.temoignages-image {
+    width: 35%;
+}
+
+.temoignages-image img {
+    height: 480px;
+    object-fit: cover;
+}
+
+.temoignages-texte {
+    width: 65%;
+}
+
+.avis {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5ded6;
+}
+
+.avis p {
+    font-style: italic;
+}
+
+.avis .nom {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #D8935C;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #2E2A26;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.footer-nom {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer .btn {
+    background-color: #D8935C;
+}
+
+.footer .btn:hover {
+    background-color: white;
+    color: #2E2A26;
+}
+.projet {
+    overflow: hidden;
+    width: 200px;
+    height: fit-content;
+    img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth animation */
+  height: 220px;
+    object-fit: cover;
+}
+img:hover {
+  transform: scale(1.1); /* Zooms the image by 10% */
+}}
+
