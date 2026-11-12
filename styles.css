@@ -119,8 +119,6 @@ p {
 }
 
 .bloc-image img {
-    display: block;
-    width: 100%;
     height: 600px;
     object-fit: cover;
 }
@@ -189,6 +187,22 @@ p {
     padding: 80px 40px;
     text-align: center;
 }
+
+.projets {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.projet {
+    width: 25%;
+}
+
+.projet img {
+    height: 220px;
+    object-fit: cover;
+}
+
 .projet h3 {
     margin-top: 15px;
     font-size: 18px;
@@ -253,19 +267,3 @@ p {
     background-color: white;
     color: #2E2A26;
 }
-.projet {
-    overflow: hidden;
-    width: 200px;
-    height: fit-content;
-    img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease; /* Smooth animation */
-  height: 220px;
-    object-fit: cover;
-}
-img:hover {
-  transform: scale(1.1); /* Zooms the image by 10% */
-}}
-
